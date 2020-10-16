@@ -1,0 +1,274 @@
+@charset "utf-8"
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#nav{
+	background: black;
+	width: 100%;
+	height: 80px;
+	line-height: 81px;
+}
+
+#nav h1{
+	float: left;
+	padding-bottom: 10px;
+}
+
+#nav h1 a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Pacifico', cursive;
+	padding-left: 0px;
+;
+
+
+
+}
+
+#nav ul {
+	float: right;
+
+}
+#nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	padding-right: 50px;
+
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+#nav ul li :hover{
+	background-color: #DDCC00 ;
+	transition: all ease-in-out 0.25s;
+	height: 25px;
+}
+
+#hello{
+	background: #DDCC00;
+}
+
+#hello1{
+	background: #DDCC00;
+	height: 5px; 
+}
+.indexHello{
+
+	 font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 98px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.indexP{
+	font-family: 'Pacifico', cursive;
+	color:black;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 31px;
+
+}
+
+#hello1A{
+	background: #DDCC00;
+	height: 500px;
+
+
+}
+#hello1A h1{
+	 font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+#aboutus1{
+	 font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 98px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+}
+
+.burger{
+	width: 500px;
+	height: 400px;
+	padding-left: 10px;
+	display: flex;
+}
+.quote{
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	padding-top: 28px;
+	
+	display: inline-block; ;
+	}
+
+.aboutusC{
+font-family: 'Pacifico', cursive;
+	
+}
+
+.gali{
+	margin-top: 0px;
+	padding-top: 103px;
+	padding-left: 460px;
+}
+
+.black{
+	background: black;
+	width: 100%;
+	height: 296px;
+	line-height: 51px;
+}
+.socialM{
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	font-size: 80px;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom:0 ;
+}
+.socialD{
+	font-family: 'Pacifico', cursive;
+font-weight: lighter;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	padding-top: 50pxl
+	margin-bottom:0 ;
+
+}
+.media {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-53%, -50%);
+}   
+.BIG{
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px 20px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+	transition: .5s
+}
+.BIG :hover{
+	color: black;
+	border:1px solid black;
+}
+
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQK0BGBJhyx98gYifTuvMnb4-v3zaIoK0yI2Q&usqp=CAU') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.product-box {
+  font: 13px/23px "Raleway", Arial, sans-serif;
+  color: $text;  
+  padding: 40px 0;
+   
+}
+.hero-images{
+	width: 260px;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  height: 465px;
+  background: #DDCC00;
+  border-radius: 3px;
+  position: relative
+
+}
+
+.price {
+  position: relative;
+  top: 180px;
+  left: 35%;
+  color: white;
+  text-align: center;
+  background: black;
+  border-radius: 50%;
+  padding: 19px 33px;
+  font-size: 22px;
+  
+  div {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+}
+
+.information {
+  text-align: center;
+  margin-top: -66px;
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+.name {
+	font-family: 'Pacifico', cursive;
+ 
+	
+}
+
+.store {
+  font-size: 16px;
+  color: $light-text;
+  margin-bottom: 28px;
+  top: 40%;
+	left: 50%;
+	transform: translate(-53%, -50%);
+	font-family: 'Pacifico', cursive;
+}
+
+.button {
+  text-decoration: none;
+  background: $button;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px 5px;
+  border-radius: 5px;
+  
+  &:hover {
+    background: $button-hover;
+  }
+}
+
